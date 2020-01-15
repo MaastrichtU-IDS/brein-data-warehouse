@@ -18,3 +18,10 @@ api_platform:
     mercure:
         hub_url: '%env(MERCURE_SUBSCRIBE_URL)%'
 
+
+    graphql:
+        enabled: true
+        graphiql:
+            enabled: true
+        graphql_playground:
+            enabled: true            
