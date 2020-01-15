@@ -12,10 +12,11 @@
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "4.4.*",
         "symfony/mercure-bundle": "^0.2",
-        "symfony/yaml": "4.4.*"
+        "symfony/yaml": "4.4.*",
+        "webonyx/graphql-php": "^0.13.8"
     },
     "require-dev": {
-        "api-platform/schema-generator": "^2.1",
+        "api-platform/schema-generator": "^2.2",
         "symfony/maker-bundle": "^1.11",
         "symfony/profiler-pack": "^1.0"
     },
