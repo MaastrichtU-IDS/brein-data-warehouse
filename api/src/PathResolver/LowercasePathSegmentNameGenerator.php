@@ -12,7 +12,7 @@ use ApiPlatform\Core\Operation\PathSegmentNameGeneratorInterface;
  *
  * @author Michel Dumontier <michel.dumontier@gmail.com>
  */
-final class LowercaseSegmentNameGenerator implements PathSegmentNameGeneratorInterface
+final class LowercasePathSegmentNameGenerator implements PathSegmentNameGeneratorInterface
 {
     /**
      * {@inheritdoc}
