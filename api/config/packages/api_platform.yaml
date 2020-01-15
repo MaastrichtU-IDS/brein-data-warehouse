@@ -1,12 +1,20 @@
 api_platform:
-    title: Hello API Platform
-    version: 1.0.0
+    title: BReIN API
+    description: 'A prototype API for the BReIN project'
+    version: 0.0.1
+    show_webby: false
+    name_converter: ~
+    
     mapping:
-        paths: ['%kernel.project_dir%/src/Entity']
+        paths: 
+            - '%kernel.project_dir%/src/Entity'
+
+    #path_segment_name_generator: 'App\PathResolver\LowercasePathSegmentNameGenerator'
+
     patch_formats:
         json: ['application/merge-patch+json']
     swagger:
         versions: [3]
-    # Mercure integration, remove if unwanted
     mercure:
         hub_url: '%env(MERCURE_SUBSCRIBE_URL)%'
+
