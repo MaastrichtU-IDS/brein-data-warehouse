@@ -9,7 +9,7 @@ api_platform:
         paths: 
             - '%kernel.project_dir%/src/Entity'
 
-    #path_segment_name_generator: 'App\PathResolver\LowercasePathSegmentNameGenerator'
+    path_segment_name_generator: 'App\PathResolver\LowercasePathSegmentNameGenerator'
 
     patch_formats:
         json: ['application/merge-patch+json']
